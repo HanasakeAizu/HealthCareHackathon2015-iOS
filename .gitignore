@@ -1,0 +1,54 @@
+#######################
+# OS Xの一時ファイル
+#######################
+
+.DS_Store
+*.swp
+*.lock
+profile
+
+
+#######################
+# Xcodeの一時ファイル
+#######################
+
+*~.nib
+
+
+#######################
+# Xcodeビルドファイル
+#######################
+
+DerivedData/
+build/
+
+
+#######################
+# Xcode設定ファイル
+#######################
+
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+
+!*.xcodeproj/default.*
+!**/*.xcodeproj/default.*
+
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+
+
+#######################
+# CocoaPods
+#######################
+Pods/*
+!Podfile.lock
+
+
+#######################
+## Idea
+#######################
+
+.idea

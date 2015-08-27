@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC241AB01B8EC004001A4869 /* AnimationPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC241AAF1B8EC004001A4869 /* AnimationPlayerView.swift */; };
+		ECB92D041B8D7C5C000D09EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D031B8D7C5C000D09EC /* AppDelegate.swift */; };
+		ECB92D061B8D7C5C000D09EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D051B8D7C5C000D09EC /* ViewController.swift */; };
+		ECB92D091B8D7C5C000D09EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB92D071B8D7C5C000D09EC /* Main.storyboard */; };
+		ECB92D0B1B8D7C5C000D09EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB92D0A1B8D7C5C000D09EC /* Images.xcassets */; };
+		ECB92D0E1B8D7C5C000D09EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB92D0C1B8D7C5C000D09EC /* LaunchScreen.xib */; };
+		ECB92D1A1B8D7C5C000D09EC /* HackathonAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D191B8D7C5C000D09EC /* HackathonAnimationDemoTests.swift */; };
+		ECB92D261B8D7CA3000D09EC /* AnimationDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D251B8D7CA3000D09EC /* AnimationDownloader.swift */; };
+		ECB92D281B8D7D81000D09EC /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D271B8D7D81000D09EC /* Animation.swift */; };
+		ECB92D2A1B8D7E8D000D09EC /* SimpleImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB92D291B8D7E8D000D09EC /* SimpleImageCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB92D141B8D7C5C000D09EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB92CF61B8D7C5C000D09EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB92CFD1B8D7C5C000D09EC;
+			remoteInfo = HackathonAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC241AAF1B8EC004001A4869 /* AnimationPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationPlayerView.swift; path = Animation/AnimationPlayerView.swift; sourceTree = "<group>"; };
+		ECB92CFE1B8D7C5C000D09EC /* HackathonAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackathonAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB92D021B8D7C5C000D09EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB92D031B8D7C5C000D09EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB92D051B8D7C5C000D09EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB92D081B8D7C5C000D09EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB92D0A1B8D7C5C000D09EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB92D0D1B8D7C5C000D09EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECB92D131B8D7C5C000D09EC /* HackathonAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackathonAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB92D181B8D7C5C000D09EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB92D191B8D7C5C000D09EC /* HackathonAnimationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackathonAnimationDemoTests.swift; sourceTree = "<group>"; };
+		ECB92D251B8D7CA3000D09EC /* AnimationDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationDownloader.swift; path = Animation/AnimationDownloader.swift; sourceTree = "<group>"; };
+		ECB92D271B8D7D81000D09EC /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Animation/Animation.swift; sourceTree = "<group>"; };
+		ECB92D291B8D7E8D000D09EC /* SimpleImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleImageCache.swift; path = Animation/SimpleImageCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB92CFB1B8D7C5C000D09EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB92D101B8D7C5C000D09EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB92CF51B8D7C5C000D09EC = {
+			isa = PBXGroup;
+			children = (
+				ECB92D001B8D7C5C000D09EC /* HackathonAnimationDemo */,
+				ECB92D161B8D7C5C000D09EC /* HackathonAnimationDemoTests */,
+				ECB92CFF1B8D7C5C000D09EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB92CFF1B8D7C5C000D09EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92CFE1B8D7C5C000D09EC /* HackathonAnimationDemo.app */,
+				ECB92D131B8D7C5C000D09EC /* HackathonAnimationDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB92D001B8D7C5C000D09EC /* HackathonAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92D031B8D7C5C000D09EC /* AppDelegate.swift */,
+				ECB92D051B8D7C5C000D09EC /* ViewController.swift */,
+				ECB92D071B8D7C5C000D09EC /* Main.storyboard */,
+				ECB92D241B8D7C73000D09EC /* Animation */,
+				ECB92D0A1B8D7C5C000D09EC /* Images.xcassets */,
+				ECB92D0C1B8D7C5C000D09EC /* LaunchScreen.xib */,
+				ECB92D011B8D7C5C000D09EC /* Supporting Files */,
+			);
+			path = HackathonAnimationDemo;
+			sourceTree = "<group>";
+		};
+		ECB92D011B8D7C5C000D09EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92D021B8D7C5C000D09EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB92D161B8D7C5C000D09EC /* HackathonAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92D191B8D7C5C000D09EC /* HackathonAnimationDemoTests.swift */,
+				ECB92D171B8D7C5C000D09EC /* Supporting Files */,
+			);
+			path = HackathonAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		ECB92D171B8D7C5C000D09EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92D181B8D7C5C000D09EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB92D241B8D7C73000D09EC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				ECB92D271B8D7D81000D09EC /* Animation.swift */,
+				EC241AAF1B8EC004001A4869 /* AnimationPlayerView.swift */,
+				ECB92D251B8D7CA3000D09EC /* AnimationDownloader.swift */,
+				ECB92D291B8D7E8D000D09EC /* SimpleImageCache.swift */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB92CFD1B8D7C5C000D09EC /* HackathonAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB92D1D1B8D7C5C000D09EC /* Build configuration list for PBXNativeTarget "HackathonAnimationDemo" */;
+			buildPhases = (
+				ECB92CFA1B8D7C5C000D09EC /* Sources */,
+				ECB92CFB1B8D7C5C000D09EC /* Frameworks */,
+				ECB92CFC1B8D7C5C000D09EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackathonAnimationDemo;
+			productName = HackathonAnimationDemo;
+			productReference = ECB92CFE1B8D7C5C000D09EC /* HackathonAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB92D121B8D7C5C000D09EC /* HackathonAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB92D201B8D7C5C000D09EC /* Build configuration list for PBXNativeTarget "HackathonAnimationDemoTests" */;
+			buildPhases = (
+				ECB92D0F1B8D7C5C000D09EC /* Sources */,
+				ECB92D101B8D7C5C000D09EC /* Frameworks */,
+				ECB92D111B8D7C5C000D09EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB92D151B8D7C5C000D09EC /* PBXTargetDependency */,
+			);
+			name = HackathonAnimationDemoTests;
+			productName = HackathonAnimationDemoTests;
+			productReference = ECB92D131B8D7C5C000D09EC /* HackathonAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB92CF61B8D7C5C000D09EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "HANASAKE PICTURES Inc.";
+				TargetAttributes = {
+					ECB92CFD1B8D7C5C000D09EC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					ECB92D121B8D7C5C000D09EC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = ECB92CFD1B8D7C5C000D09EC;
+					};
+				};
+			};
+			buildConfigurationList = ECB92CF91B8D7C5C000D09EC /* Build configuration list for PBXProject "HackathonAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB92CF51B8D7C5C000D09EC;
+			productRefGroup = ECB92CFF1B8D7C5C000D09EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB92CFD1B8D7C5C000D09EC /* HackathonAnimationDemo */,
+				ECB92D121B8D7C5C000D09EC /* HackathonAnimationDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB92CFC1B8D7C5C000D09EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB92D091B8D7C5C000D09EC /* Main.storyboard in Resources */,
+				ECB92D0E1B8D7C5C000D09EC /* LaunchScreen.xib in Resources */,
+				ECB92D0B1B8D7C5C000D09EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB92D111B8D7C5C000D09EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB92CFA1B8D7C5C000D09EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB92D2A1B8D7E8D000D09EC /* SimpleImageCache.swift in Sources */,
+				ECB92D261B8D7CA3000D09EC /* AnimationDownloader.swift in Sources */,
+				ECB92D061B8D7C5C000D09EC /* ViewController.swift in Sources */,
+				ECB92D281B8D7D81000D09EC /* Animation.swift in Sources */,
+				EC241AB01B8EC004001A4869 /* AnimationPlayerView.swift in Sources */,
+				ECB92D041B8D7C5C000D09EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB92D0F1B8D7C5C000D09EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB92D1A1B8D7C5C000D09EC /* HackathonAnimationDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB92D151B8D7C5C000D09EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB92CFD1B8D7C5C000D09EC /* HackathonAnimationDemo */;
+			targetProxy = ECB92D141B8D7C5C000D09EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB92D071B8D7C5C000D09EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB92D081B8D7C5C000D09EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB92D0C1B8D7C5C000D09EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB92D0D1B8D7C5C000D09EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB92D1B1B8D7C5C000D09EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB92D1C1B8D7C5C000D09EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB92D1E1B8D7C5C000D09EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackathonAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB92D1F1B8D7C5C000D09EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackathonAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECB92D211B8D7C5C000D09EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackathonAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackathonAnimationDemo.app/HackathonAnimationDemo";
+			};
+			name = Debug;
+		};
+		ECB92D221B8D7C5C000D09EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackathonAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackathonAnimationDemo.app/HackathonAnimationDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB92CF91B8D7C5C000D09EC /* Build configuration list for PBXProject "HackathonAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB92D1B1B8D7C5C000D09EC /* Debug */,
+				ECB92D1C1B8D7C5C000D09EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB92D1D1B8D7C5C000D09EC /* Build configuration list for PBXNativeTarget "HackathonAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB92D1E1B8D7C5C000D09EC /* Debug */,
+				ECB92D1F1B8D7C5C000D09EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB92D201B8D7C5C000D09EC /* Build configuration list for PBXNativeTarget "HackathonAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB92D211B8D7C5C000D09EC /* Debug */,
+				ECB92D221B8D7C5C000D09EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB92CF61B8D7C5C000D09EC /* Project object */;
+}

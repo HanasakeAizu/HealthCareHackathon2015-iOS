@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HackathonAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" userLabel="Root">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lDm-lP-SO6" userLabel="Delight View">
+                                <rect key="frame" x="0.0" y="20" width="188" height="324"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="喜ぶ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwI-mo-30g" userLabel="Emotion Label">
+                                        <rect key="frame" x="8" y="8" width="172" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Ifs-eK-0a6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687895767223" green="0.27813342622227194" blue="0.30122938064114535" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KUp-hS-ALV" userLabel="Animation View" customClass="AnimationPlayerView" customModule="HackathonAnimationDemo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="37" width="172" height="279"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAJ-jK-REv" userLabel="Click Label">
+                                        <rect key="frame" x="8" y="37" width="172" height="279"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.99215686270000003" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="FwI-mo-30g" firstAttribute="leading" secondItem="lDm-lP-SO6" secondAttribute="leading" constant="8" id="2AI-fr-qL1"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="bottom" secondItem="aAJ-jK-REv" secondAttribute="bottom" id="BKa-Y3-omt"/>
+                                    <constraint firstAttribute="trailing" secondItem="KUp-hS-ALV" secondAttribute="trailing" constant="8" id="Fgt-CV-fd0"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="top" secondItem="FwI-mo-30g" secondAttribute="bottom" constant="8" id="OEB-gB-Emt"/>
+                                    <constraint firstItem="FwI-mo-30g" firstAttribute="top" secondItem="lDm-lP-SO6" secondAttribute="top" constant="8" id="SUu-zJ-yHY"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="top" secondItem="aAJ-jK-REv" secondAttribute="top" id="Zq0-ub-nGZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="KUp-hS-ALV" secondAttribute="bottom" constant="8" id="hgd-Nf-5OQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="FwI-mo-30g" secondAttribute="trailing" constant="8" id="ilm-Ts-J9d"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="trailing" secondItem="aAJ-jK-REv" secondAttribute="trailing" id="jGT-Be-FwM"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="leading" secondItem="aAJ-jK-REv" secondAttribute="leading" id="reH-Qj-3v3"/>
+                                    <constraint firstItem="KUp-hS-ALV" firstAttribute="leading" secondItem="lDm-lP-SO6" secondAttribute="leading" constant="8" id="snb-O0-YZd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBi-JT-xLZ" userLabel="Anger View">
+                                <rect key="frame" x="188" y="20" width="187" height="324"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="怒る" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVt-S0-1kp" userLabel="Emotion Label">
+                                        <rect key="frame" x="8" y="8" width="171" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="xFa-yu-E3c"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hw4-uD-Prh" userLabel="Animation View" customClass="AnimationPlayerView" customModule="HackathonAnimationDemo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="37" width="171" height="279"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGE-y6-wO0" userLabel="Click Label">
+                                        <rect key="frame" x="8" y="37" width="171" height="279"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.91372549530000002" green="0.37647059560000001" blue="0.46274510029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mVt-S0-1kp" secondAttribute="trailing" constant="8" id="41Z-lP-mlr"/>
+                                    <constraint firstItem="mVt-S0-1kp" firstAttribute="top" secondItem="fBi-JT-xLZ" secondAttribute="top" constant="8" id="8N3-Oh-RgD"/>
+                                    <constraint firstAttribute="bottom" secondItem="hw4-uD-Prh" secondAttribute="bottom" constant="8" id="BP5-1a-nua"/>
+                                    <constraint firstItem="mVt-S0-1kp" firstAttribute="leading" secondItem="fBi-JT-xLZ" secondAttribute="leading" constant="8" id="FCr-Bc-z7c"/>
+                                    <constraint firstItem="hw4-uD-Prh" firstAttribute="leading" secondItem="fBi-JT-xLZ" secondAttribute="leading" constant="8" id="NuF-Y6-PBF"/>
+                                    <constraint firstItem="TGE-y6-wO0" firstAttribute="trailing" secondItem="hw4-uD-Prh" secondAttribute="trailing" id="Oac-di-4FU"/>
+                                    <constraint firstItem="TGE-y6-wO0" firstAttribute="top" secondItem="hw4-uD-Prh" secondAttribute="top" id="RPc-wh-dpI"/>
+                                    <constraint firstItem="TGE-y6-wO0" firstAttribute="bottom" secondItem="hw4-uD-Prh" secondAttribute="bottom" id="RjW-VZ-O21"/>
+                                    <constraint firstItem="TGE-y6-wO0" firstAttribute="leading" secondItem="hw4-uD-Prh" secondAttribute="leading" id="Sjc-yq-vdA"/>
+                                    <constraint firstAttribute="trailing" secondItem="hw4-uD-Prh" secondAttribute="trailing" constant="8" id="W70-jZ-S6A"/>
+                                    <constraint firstItem="hw4-uD-Prh" firstAttribute="top" secondItem="mVt-S0-1kp" secondAttribute="bottom" constant="8" id="pfk-fH-lKE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9E-Jt-ovA" userLabel="Sorrow View">
+                                <rect key="frame" x="0.0" y="344" width="188" height="323"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="悲しむ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kN-W2-dXt" userLabel="Emotion Label">
+                                        <rect key="frame" x="8" y="8" width="172" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="b4Y-JA-i26"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="awg-Kl-ShH" userLabel="Animation View" customClass="AnimationPlayerView" customModule="HackathonAnimationDemo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="37" width="172" height="278"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzS-tV-3yV" userLabel="Click Label">
+                                        <rect key="frame" x="8" y="37" width="172" height="278"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.32549019607843138" green="0.51764705882352935" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="5kN-W2-dXt" firstAttribute="top" secondItem="b9E-Jt-ovA" secondAttribute="top" constant="8" id="5lb-GC-lA9"/>
+                                    <constraint firstItem="yzS-tV-3yV" firstAttribute="trailing" secondItem="awg-Kl-ShH" secondAttribute="trailing" id="9p8-Dv-BhL"/>
+                                    <constraint firstItem="yzS-tV-3yV" firstAttribute="top" secondItem="awg-Kl-ShH" secondAttribute="top" id="Fw3-hX-wy2"/>
+                                    <constraint firstAttribute="trailing" secondItem="awg-Kl-ShH" secondAttribute="trailing" constant="8" id="Pck-cC-igQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="awg-Kl-ShH" secondAttribute="bottom" constant="8" id="Rdk-0w-icA"/>
+                                    <constraint firstItem="5kN-W2-dXt" firstAttribute="leading" secondItem="b9E-Jt-ovA" secondAttribute="leading" constant="8" id="YU1-sZ-sEp"/>
+                                    <constraint firstAttribute="trailing" secondItem="5kN-W2-dXt" secondAttribute="trailing" constant="8" id="e9t-CV-A1h"/>
+                                    <constraint firstItem="yzS-tV-3yV" firstAttribute="bottom" secondItem="awg-Kl-ShH" secondAttribute="bottom" id="eSH-iY-PaK"/>
+                                    <constraint firstItem="awg-Kl-ShH" firstAttribute="top" secondItem="5kN-W2-dXt" secondAttribute="bottom" constant="8" id="jHf-xN-LnI"/>
+                                    <constraint firstItem="yzS-tV-3yV" firstAttribute="leading" secondItem="awg-Kl-ShH" secondAttribute="leading" id="nx3-jL-nIj"/>
+                                    <constraint firstItem="awg-Kl-ShH" firstAttribute="leading" secondItem="b9E-Jt-ovA" secondAttribute="leading" constant="8" id="sQE-jJ-Y1N"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ES-6a-Tbt" userLabel="Walk View">
+                                <rect key="frame" x="188" y="344" width="187" height="323"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歩く" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sm8-KC-3kY" userLabel="Emotion Label">
+                                        <rect key="frame" x="8" y="8" width="171" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="Nhh-lf-MhU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="odo-69-yAn" userLabel="Animation View" customClass="AnimationPlayerView" customModule="HackathonAnimationDemo" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="37" width="171" height="278"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AaS-Bp-Si8" userLabel="Click Label">
+                                        <rect key="frame" x="8" y="37" width="171" height="278"/>
+                                        <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="17"/>
+                                        <color key="textColor" red="0.27317687899999998" green="0.27813342619999998" blue="0.30122938059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75294119120000003" green="0.75294119120000003" blue="0.75294119120000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="odo-69-yAn" firstAttribute="top" secondItem="sm8-KC-3kY" secondAttribute="bottom" constant="8" id="4Ld-VM-jDE"/>
+                                    <constraint firstAttribute="bottom" secondItem="odo-69-yAn" secondAttribute="bottom" constant="8" id="8Uj-yo-tb3"/>
+                                    <constraint firstItem="AaS-Bp-Si8" firstAttribute="top" secondItem="odo-69-yAn" secondAttribute="top" id="S9n-jH-x2X"/>
+                                    <constraint firstItem="sm8-KC-3kY" firstAttribute="top" secondItem="5ES-6a-Tbt" secondAttribute="top" constant="8" id="SH4-3E-D2L"/>
+                                    <constraint firstItem="AaS-Bp-Si8" firstAttribute="leading" secondItem="odo-69-yAn" secondAttribute="leading" id="Spe-kO-m7a"/>
+                                    <constraint firstAttribute="trailing" secondItem="odo-69-yAn" secondAttribute="trailing" constant="8" id="Xrw-7Z-gAX"/>
+                                    <constraint firstItem="odo-69-yAn" firstAttribute="leading" secondItem="5ES-6a-Tbt" secondAttribute="leading" constant="8" id="Yk9-aI-aaZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="sm8-KC-3kY" secondAttribute="trailing" constant="8" id="em7-ZV-Jma"/>
+                                    <constraint firstItem="AaS-Bp-Si8" firstAttribute="trailing" secondItem="odo-69-yAn" secondAttribute="trailing" id="emO-im-dts"/>
+                                    <constraint firstItem="AaS-Bp-Si8" firstAttribute="bottom" secondItem="odo-69-yAn" secondAttribute="bottom" id="fO3-rV-goh"/>
+                                    <constraint firstItem="sm8-KC-3kY" firstAttribute="leading" secondItem="5ES-6a-Tbt" secondAttribute="leading" constant="8" id="gDf-mu-QPh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="5ES-6a-Tbt" secondAttribute="trailing" id="06a-e0-eLC"/>
+                            <constraint firstItem="fBi-JT-xLZ" firstAttribute="leading" secondItem="lDm-lP-SO6" secondAttribute="trailing" id="7or-eS-sz7"/>
+                            <constraint firstItem="fBi-JT-xLZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ACA-i0-GO5"/>
+                            <constraint firstAttribute="trailing" secondItem="fBi-JT-xLZ" secondAttribute="trailing" id="BcR-8f-ea4"/>
+                            <constraint firstAttribute="bottom" secondItem="b9E-Jt-ovA" secondAttribute="bottom" id="GJP-Rq-exL"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="height" secondItem="b9E-Jt-ovA" secondAttribute="height" id="VUU-pU-jgF"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="width" secondItem="lDm-lP-SO6" secondAttribute="width" id="exG-VA-7OL"/>
+                            <constraint firstItem="lDm-lP-SO6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="hkt-XC-eAQ"/>
+                            <constraint firstItem="lDm-lP-SO6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="ihE-HR-tBM"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="height" secondItem="lDm-lP-SO6" secondAttribute="height" id="iyY-tx-FZa"/>
+                            <constraint firstAttribute="bottom" secondItem="5ES-6a-Tbt" secondAttribute="bottom" id="kkL-Ts-kcV"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="leading" secondItem="b9E-Jt-ovA" secondAttribute="trailing" id="kqo-0w-oux"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="top" secondItem="fBi-JT-xLZ" secondAttribute="bottom" id="rO2-wK-Qpr"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="height" secondItem="fBi-JT-xLZ" secondAttribute="height" id="rpx-Jl-DTn"/>
+                            <constraint firstItem="b9E-Jt-ovA" firstAttribute="top" secondItem="lDm-lP-SO6" secondAttribute="bottom" id="sAv-Pi-U1f"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="width" secondItem="b9E-Jt-ovA" secondAttribute="width" id="t2S-Xg-wys"/>
+                            <constraint firstItem="5ES-6a-Tbt" firstAttribute="width" secondItem="fBi-JT-xLZ" secondAttribute="width" id="v5S-Uv-Deg"/>
+                            <constraint firstItem="b9E-Jt-ovA" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="xW1-up-dVb"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="angerClickLabel" destination="TGE-y6-wO0" id="XHl-v5-CcO"/>
+                        <outlet property="angerPlayerView" destination="hw4-uD-Prh" id="icJ-TM-nfW"/>
+                        <outlet property="angerView" destination="fBi-JT-xLZ" id="6Tm-6q-sDx"/>
+                        <outlet property="delightClickLabel" destination="aAJ-jK-REv" id="N4q-Jr-uXn"/>
+                        <outlet property="delightPlayerView" destination="KUp-hS-ALV" id="Uyx-op-mru"/>
+                        <outlet property="delightView" destination="lDm-lP-SO6" id="KoW-jv-Onl"/>
+                        <outlet property="sorrowClickLabel" destination="yzS-tV-3yV" id="3gc-hv-azr"/>
+                        <outlet property="sorrowPlayerView" destination="awg-Kl-ShH" id="jxO-UH-qlS"/>
+                        <outlet property="sorrowView" destination="b9E-Jt-ovA" id="b0p-lo-D2m"/>
+                        <outlet property="walkClickLabel" destination="AaS-Bp-Si8" id="pNb-rV-2ap"/>
+                        <outlet property="walkPlayerView" destination="odo-69-yAn" id="AhJ-J1-v3a"/>
+                        <outlet property="walkView" destination="5ES-6a-Tbt" id="Naw-xR-zTM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.5" y="621.5"/>
+        </scene>
+    </scenes>
+</document>
